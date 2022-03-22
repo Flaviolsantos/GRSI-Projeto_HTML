@@ -1,0 +1,20 @@
+const { response } = require("express");
+const express = require("express");
+const { sendfile } = require("express/lib/response");
+const { request } = require("http");
+const { dirname } = require("path");
+const path = require("path");
+const { send } = require("process");
+const app = express();
+
+
+app.use(express.static("/public"))
+
+app.get("/", (request,response) => {
+    response.sendFile(path.join(__dirname,("/public/index.html")))
+})
+
+const port = 3000;
+
+app.listen(port);
+
