@@ -1,0 +1,25 @@
+{
+  "name": "grsi-projeto",
+  "version": "1.0.0",
+  "description": "Projeto-web aulas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaviolsantos/GRSI-Projeto.git"
+  },
+  "author": "Flavio Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flaviolsantos/GRSI-Projeto/issues"
+  },
+  "homepage": "https://github.com/Flaviolsantos/GRSI-Projeto#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemod": "^3.0.6",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
