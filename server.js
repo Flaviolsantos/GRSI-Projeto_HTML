@@ -7,14 +7,17 @@ const path = require("path");
 const { send } = require("process");
 const app = express();
 
+app.use('/public', express.static(path.join(__dirname, "public")));
 
-app.use(express.static("/public"))
-
+// ROTA PRINCIPAL
 app.get("/", (request,response) => {
     response.sendFile(path.join(__dirname,("/public/index.html")))
 })
 
 const port = 3000;
 
-app.listen(port);
+app.listen(port, ()  => {
+    console.log("App listening on port" + port);
+});
+
 

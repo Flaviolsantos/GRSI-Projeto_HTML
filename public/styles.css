@@ -1,0 +1,18 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cab1 {
+    
+    color: red;
+    font-size: 50px;
+}
+
+.cab2 {
+    color: green;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(190, 190, 190);
+    
+}
